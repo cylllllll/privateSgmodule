@@ -1,3 +1,6 @@
+#!name=mihoyo coin
+#!desc=签到领取米游币
+
 [MITM]
 hostname = api-takumi.mihoyo.com
 
