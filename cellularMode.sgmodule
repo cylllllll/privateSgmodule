@@ -1,0 +1,5 @@
+#!name=cellular mode
+#!desc=计费网络
+
+[SSID Setting]
+"cy's iPhone" cellular-mode=true
