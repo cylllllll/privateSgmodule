@@ -1,0 +1,9 @@
+#!name=bilibiliCoins
+#!desc=bilibili硬币
+
+[Script]
+bilibiliCoinsCookie = type=http-request,pattern=^https:\/\/(m|api)\.bilibili\.com\/(x\/v\d\/history\/shadow|service-worker).*,script-path=https://raw.githubusercontent.com/cyubuchen/scripts/master/cookie/bilibiliCoins.js
+bilibiliCoins = type=cron,cronexp="25 15 * * *",script-path=https://raw.githubusercontent.com/cyubuchen/scripts/master/task/bilibiliCoins.js
+
+[MITM]
+hostname= m.bilibili.com, api.bilibili.com
