@@ -1,5 +1,5 @@
 #!name=bilibiliCoins
-#!desc=bilibili硬币
+#!desc=bilibili每日硬币。打开哔哩哔哩App前往[我的] -> [历史记录]获取cookies
 
 [Script]
 bilibiliCoinsCookie = type=http-request,pattern=^https:\/\/(m|api)\.bilibili\.com\/(x\/v\d\/history\/shadow|service-worker).*,script-path=https://raw.githubusercontent.com/cyubuchen/scripts/master/cookie/bilibiliCoins.js
