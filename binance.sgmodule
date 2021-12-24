@@ -2,6 +2,6 @@
 
 [Rule]
 # > binance
-DOMAIN-SUFFIX,binance.com,PROXY
-DOMAIN-SUFFIX,binance.cloud,PROXY
-DOMAIN,bin.bnbstatic.com,PROXY
+DOMAIN-SUFFIX,binance.com,Proxy
+DOMAIN-SUFFIX,binance.cloud,Proxy
+DOMAIN,bin.bnbstatic.com,Proxy
