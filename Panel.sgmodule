@@ -4,12 +4,9 @@
 
 [Script]
 net-info-panel.js=script-path=https://raw.githubusercontent.com/cylllllll/Surge/main/Panel/Network-Info/cn/networkCheck_CN.js,type=generic
-Sub_info = type=generic,timeout=10,script-path=sub_info_panel.js,argument=reset_day=1&title=Dler&icon=bonjour&color=#007aff
-
 
 [Panel]
 NetInfoPanel=title="",content="",style=info,script-name=net-info-panel.js,update-interval=1
-Sub_info = script-name=Sub_info,update-interval=600
 
 [Host]
 ip-api.com = 208.95.112.1
