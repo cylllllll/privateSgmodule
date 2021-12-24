@@ -1,5 +1,7 @@
-# > binance
+#!name=binance List
+
 [Rule]
+# > binance
 DOMAIN-SUFFIX,binance.com,PROXY
 DOMAIN-SUFFIX,binance.cloud,PROXY
 DOMAIN,bin.bnbstatic.com,PROXY
