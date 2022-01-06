@@ -1,0 +1,6 @@
+#!name=BruisesL List
+#!desc=BruisesL专用规则
+
+[Rule]
+# > dxnf
+DOMAIN-SUFFIX,dxnf.xyz,AmyTelecom
