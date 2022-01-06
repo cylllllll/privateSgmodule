@@ -1,4 +1,5 @@
-#!name=binance List
+#!name=chain List
+#!desc=bilibili每日硬币。打开哔哩哔哩App前往[我的] -> [历史记录]获取cookies
 
 [Rule]
 # > binance
