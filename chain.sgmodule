@@ -7,4 +7,5 @@ DOMAIN-SUFFIX,binance.com,Proxy
 DOMAIN-SUFFIX,binance.cloud,Proxy
 DOMAIN,bin.bnbstatic.com,Proxy
 
-DOMAIN-SUFFIX,min-api.cryptocompare.com,Proxy
+DOMAIN-SUFFIX,cryptocompare.com,Proxy
+DOMAIN-SUFFIX,mexc.com,Proxy
