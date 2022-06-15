@@ -1,0 +1,5 @@
+#!name=Personal List
+
+[Rule]
+# > PS截图山传
+DOMAIN-SUFFIX,ps5.np.playstation.net,Proxy
