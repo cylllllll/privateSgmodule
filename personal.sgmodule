@@ -7,11 +7,11 @@ DOMAIN-SUFFIX,ps5.np.playstation.net,Proxy
 DOMAIN-SUFFIX,playstation.net,Proxy
 DOMAIN-SUFFIX,playstation.com,Proxy
 # > fuck parallels
-DOMAIN-SUFFIX,download.parallels.com.cdn.cloudflare.net
-DOMAIN-SUFFIX,update.parallels.com.cdn.cloudflare.net
-DOMAIN-SUFFIX,desktop.parallels.com.cdn.cloudflare.net
-DOMAIN-SUFFIX,reportus.parallels.com
-DOMAIN-SUFFIX,parallels.com
-DOMAIN-SUFFIX,parallels.cn
-DOMAIN-SUFFIX,pax-manager.myparallels.com
-DOMAIN-SUFFIX,myparallels.com
+DOMAIN-SUFFIX,download.parallels.com.cdn.cloudflare.net,Reject
+DOMAIN-SUFFIX,update.parallels.com.cdn.cloudflare.net,Reject
+DOMAIN-SUFFIX,desktop.parallels.com.cdn.cloudflare.net,Reject
+DOMAIN-SUFFIX,reportus.parallels.com,Reject
+DOMAIN-SUFFIX,parallels.com,Reject
+DOMAIN-SUFFIX,parallels.cn,Reject
+DOMAIN-SUFFIX,pax-manager.myparallels.com,Reject
+DOMAIN-SUFFIX,myparallels.com,Reject
