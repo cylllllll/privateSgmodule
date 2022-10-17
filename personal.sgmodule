@@ -15,3 +15,11 @@ DOMAIN-SUFFIX,parallels.com,Reject
 DOMAIN-SUFFIX,parallels.cn,Reject
 DOMAIN-SUFFIX,pax-manager.myparallels.com,Reject
 DOMAIN-SUFFIX,myparallels.com,Reject
+
+HOST-SUFFIX,dlandroid.rcv.sandai.net,PikPak
+HOST-SUFFIX,hub5idx.v6.shub.sandai.net,PikPak
+HOST-SUFFIX,hub5pn.wap.sandai.net,PikPak
+HOST-SUFFIX,hub5pnc.sandai.net,PikPak
+HOST-SUFFIX,hub5pr.v6.phub.sandai.net,PikPak
+HOST-SUFFIX,hubciddata.sandai.net,PikPak
+HOST-KEYWORD,mypikpak,PikPak
