@@ -6,6 +6,8 @@
 DOMAIN-SUFFIX,ps5.np.playstation.net,Proxy
 DOMAIN-SUFFIX,playstation.net,Proxy
 DOMAIN-SUFFIX,playstation.com,Proxy
+DOMAIN-SUFFIX,sony.com,Proxy
+
 # > fuck parallels
 DOMAIN-SUFFIX,download.parallels.com.cdn.cloudflare.net,Reject
 DOMAIN-SUFFIX,update.parallels.com.cdn.cloudflare.net,Reject
@@ -16,6 +18,7 @@ DOMAIN-SUFFIX,parallels.cn,Reject
 DOMAIN-SUFFIX,pax-manager.myparallels.com,Reject
 DOMAIN-SUFFIX,myparallels.com,Reject
 
+# > pikpak
 DOMAIN-SUFFIX,dlandroid.rcv.sandai.net,Proxy
 DOMAIN-SUFFIX,hub5idx.v6.shub.sandai.net,Proxy
 DOMAIN-SUFFIX,hub5pn.wap.sandai.net,Proxy
