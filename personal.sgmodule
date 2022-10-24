@@ -26,3 +26,6 @@ DOMAIN-SUFFIX,hub5pnc.sandai.net,Proxy
 DOMAIN-SUFFIX,hub5pr.v6.phub.sandai.net,Proxy
 DOMAIN-SUFFIX,hubciddata.sandai.net,Proxy
 DOMAIN-KEYWORD,mypikpak,Proxy
+
+# > podcast
+DOMAIN-SUFFIX,randgad.com,Proxy
