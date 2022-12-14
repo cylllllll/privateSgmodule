@@ -29,3 +29,6 @@ DOMAIN-KEYWORD,mypikpak,Proxy
 
 # > podcast
 DOMAIN-SUFFIX,randgad.com,Proxy
+
+# > nftrack
+DOMAIN-SUFFIX,nftrack.ai,Proxy
