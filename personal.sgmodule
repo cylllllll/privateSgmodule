@@ -35,3 +35,9 @@ DOMAIN-SUFFIX,nftrack.ai,Proxy
 
 # > jasmine
 DOMAIN-SUFFIX,asjmapihost.cc,Proxy
+
+# Blizzard
+DOMAIN-SUFFIX,blizzard.com,Proxy
+DOMAIN-SUFFIX,battlenet.com,Proxy
+DOMAIN-SUFFIX,battle.net,Proxy
+DOMAIN,blzddist1-a.akamaihd.net,Proxy
