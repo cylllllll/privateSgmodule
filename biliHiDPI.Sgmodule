@@ -1,0 +1,9 @@
+#!name=bilibili
+#!desc=1080P高码率+4K画质
+
+[Script]
+BiliBili_1080P高码率 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/app\.bilibili\.com\/x\/v2\/account\/myinfo\? url script-response-body https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js
+
+
+[MITM]
+hostname = %APPEND% app.biliintl.com, app.bilibili.com,api.live.bilibili.com,api.vc.bilibili.com, api.bilibili.com, manga.bilibili.com
