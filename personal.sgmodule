@@ -64,3 +64,5 @@ DOMAIN,blzddist1-a.akamaihd.net,Proxy
 # Chain
 DOMAIN-SUFFIX,cryptocompare.com,Direct
 DOMAIN-SUFFIX,mexc.com,Proxy
+DOMAIN-SUFFIX,walletconnect.com,Proxy
+DOMAIN-SUFFIX,zerion.io,Proxy
