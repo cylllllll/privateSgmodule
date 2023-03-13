@@ -1,0 +1,7 @@
+#!name=work list
+#!desc=上班专用
+
+[Rule]
+DOMAIN-SUFFIX,bilibili.com,Proxy
+DOMAIN-SUFFIX,weibocdn.com,Proxy
+DOMAIN-SUFFIX,gcores.com,Proxy
