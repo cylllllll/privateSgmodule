@@ -4,4 +4,4 @@
 阿里云盘签到 = type=cron,cronexp="0 10 0 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/lowking/Scripts/master/ali/aliYunPanCheckIn.js
 
 [MITM]
-hostname = auth.aliyundrive.com
+hostname = %APPEND% auth.aliyundrive.com
