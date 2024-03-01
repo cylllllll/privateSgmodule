@@ -3,7 +3,7 @@
 let url = $request.url;
 let hasUid = (url) => url.includes("uid");
 let getUid = (url) => (hasUid(url) ? url.match(/uid=(\d+)/)[1] : undefined);
-if (url.includes("users/show")) {
+if (url.includes("remind/unread_count")) {
   $persistentStore.write(getUid(url), "uid");
   $done({});
 } else if (url.includes("statuses/user_timeline")) {
@@ -17,7 +17,8 @@ if (url.includes("users/show")) {
     .map((card) => (card.card_group ? card.card_group : card))
     .flat()
     .filter((card) => card.card_type === 9)
-    .map((card) => card.mblog);
+    .map((card) => card.mblog)
+    .map((status) => (status.isTop ? { ...status, label: "置顶" } : status));
   let sinceId = data.cardlistInfo.since_id;
   $done({ body: JSON.stringify({ statuses, since_id: sinceId, total_number: 100 }) });
 } else {
