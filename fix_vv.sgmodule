@@ -4,7 +4,7 @@
 [Script]
 fix_timeline_request = type=http-request,pattern=^https:\/\/api\.weibo\.cn\/2\/(users\/show\?|statuses\/user_timeline\?),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/cylllllll/privateSgmodule/main/fix_vvebo_user_profile.js
 fix_timeline_response = type=http-response,pattern=^https:\/\/api\.weibo\.cn\/2\/profile\/statuses\/tab\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/cylllllll/privateSgmodule/main/fix_vvebo_user_profile.js
-fix_unread_count = type=http-request, pattern=^https:\/\/api\.weibo\.cn\/2\/remind\/unread_count\?, script-path=https://raw.githubusercontent.com/cylllllll/privateSgmodule/main/fix_vvebo_user_profile
+fix_unread_count = type=http-request, pattern=^https:\/\/api\.weibo\.cn\/2\/remind\/unread_count\?, script-path=https://raw.githubusercontent.com/cylllllll/privateSgmodule/main/fix_vvebo_user_profile.js
 fix_fans = type=http-response, pattern=^https:\/\/api\.weibo\.cn\/2\/cardlist\?, script-path=https://raw.githubusercontent.com/cylllllll/privateSgmodule/main/fix_vvebo_fans.js, requires-body=true
 
 [Mitm]
