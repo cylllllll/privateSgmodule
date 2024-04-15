@@ -1,0 +1,14 @@
+#!name=Raycast Unblock
+#!desc=Raycast Unblock
+
+[MITM]
+hostname = %APPEND% backend.raycast.com
+
+
+[Script]
+raycast-activate-backend.raycast.com = type=http-response,pattern=^https://backend.raycast.com/api/v1/me,requires-body=1,max-size=0,debug=1,script-path=https://raw.githubusercontent.com/cylllllll/private/main/raycast.js,script-update-internal=86400
+raycast-translations-backend.raycast.com = type=http-request,pattern=^https://backend.raycast.com/api/v1/translations,requires-body=1,max-size=0,debug=1,script-path=https://raw.githubusercontent.com/cylllllll/private/main/raycast.js,script-update-internal=86400
+raycast-me/trial_status-backend.raycast.com = type=http-request,pattern=^https://backend.raycast.com/api/v1/me/trial_status,requires-body=1,max-size=0,debug=1,script-path=https://raw.githubusercontent.com/cylllllll/private/main/raycast.js,script-update-internal=86400
+raycast-me/sync-backend.raycast.com = type=http-request,pattern=^https://backend.raycast.com/api/v1/me/sync,requires-body=1,max-size=0,debug=1,script-path=https://raw.githubusercontent.com/cylllllll/private/main/raycast.js,script-update-internal=86400
+raycast-ai/models-backend.raycast.com = type=http-request,pattern=^https://backend.raycast.com/api/v1/ai/models,requires-body=1,max-size=0,debug=1,script-path=https://raw.githubusercontent.com/cylllllll/private/main/raycast.js,script-update-internal=86400
+raycast-ai/chat_completions-backend.raycast.com = type=http-request,pattern=^https://backend.raycast.com/api/v1/ai/chat_completions,requires-body=1,max-size=0,debug=1,script-path=https://raw.githubusercontent.com/cylllllll/private/main/raycast.js,script-update-internal=86400
