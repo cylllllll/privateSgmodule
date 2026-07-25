@@ -1,9 +1,11 @@
-#!name=MTProto Proxy
-#!desc=Surge MTProto 入站代理，可自定义监听地址、端口、密钥及 IPv6 出站。
-#!arguments=INTERFACE=127.0.0.1&PORT=5753&SECRET=0123456789abcdef0123456789abcdef&IPV6=true
+#!name=MTProto
+#!desc=Telegram MTProto Proxy
+#!category=Telegram
+#!arguments=INTERFACE:127.0.0.1,PORT:5753,SECRET:0123456789abcdef0123456789abcdef,IPV6:true
+#!arguments-desc=INTERFACE: 监听地址；PORT: 监听端口；SECRET: 32位十六进制密钥；IPV6: 是否使用 IPv6 连接 Telegram DC
 
 [MTProto]
-interface = %INTERFACE%
-port = %PORT%
-secret = %SECRET%
-ipv6 = %IPV6%
+interface = {{{INTERFACE}}}
+port = {{{PORT}}}
+secret = {{{SECRET}}}
+ipv6 = {{{IPV6}}}
