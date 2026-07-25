@@ -1,11 +1,11 @@
 #!name=MTProto
-#!desc=Telegram MTProto Proxy
+#!desc=在 Surge 中运行 Telegram MTProto 代理服务。Surge Mac 可使用 0.0.0.0 向局域网设备提供服务。
 #!category=Telegram
-#!arguments=INTERFACE:127.0.0.1,PORT:5753,SECRET:0123456789abcdef0123456789abcdef,IPV6:true
-#!arguments-desc=INTERFACE: 监听地址；PORT: 监听端口；SECRET: 32位十六进制密钥；IPV6: 是否使用 IPv6 连接 Telegram DC
+#!arguments=Interface:127.0.0.1,Port:5753,Secret:0123456789abcdef0123456789abcdef,IPv6:true
+#!arguments-desc=\nInterface: [监听] 本地监听地址\n  ├ 127.0.0.1: 仅供当前设备使用\n  └ 0.0.0.0: 监听全部 IPv4 接口，可供局域网设备连接。\n\nPort: [监听] 服务端口\nTelegram 客户端连接 MTProto 服务时使用的 TCP 端口，有效范围为 1–65535。\n请确保该端口未被其他服务占用。\n\nSecret: [认证] MTProto 密钥\n用于验证连接到代理服务器的客户端。\n  ├ 标准格式: 32 位十六进制字符\n\nIPv6: [出站] Telegram DC 连接协议\n  ├ true: 使用 IPv6 连接 Telegram 数据中心\n  └ false: 使用 IPv4 连接 Telegram 数据中心\n此选项只影响 Surge 到 Telegram DC 的出站连接，不影响客户端如何连接本地 MTProto 服务。
 
 [MTProto]
-interface = {{{INTERFACE}}}
-port = {{{PORT}}}
-secret = {{{SECRET}}}
-ipv6 = {{{IPV6}}}
+interface = {{{Interface}}}
+port = {{{Port}}}
+secret = {{{Secret}}}
+ipv6 = {{{IPv6}}}
