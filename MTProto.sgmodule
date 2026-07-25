@@ -1,0 +1,9 @@
+#!name=MTProto Proxy
+#!desc=Surge MTProto 入站代理，可自定义监听地址、端口、密钥及 IPv6 出站。
+#!arguments=INTERFACE=127.0.0.1&PORT=5753&SECRET=0123456789abcdef0123456789abcdef&IPV6=true
+
+[MTProto]
+interface = %INTERFACE%
+port = %PORT%
+secret = %SECRET%
+ipv6 = %IPV6%
